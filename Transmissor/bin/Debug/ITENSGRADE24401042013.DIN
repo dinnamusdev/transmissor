@@ -1,0 +1,67 @@
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+	<s:Schema id="RowsetSchema">
+		<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+			<s:AttributeType name="chaveunica" rs:number="1" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="chaveunica" rs:keycolumn="true" rs:autoincrement="true">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="codigo" rs:number="2" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="codigo">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="codicorprod" rs:number="3" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="codicorprod">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="cor" rs:number="4" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="cor">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="tamanho" rs:number="5" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="tamanho">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="codbarraint" rs:number="6" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="codbarraint">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="codbarraforn" rs:number="7" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="codbarraforn">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="precocompra" rs:number="8" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="precocompra">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="referencia" rs:number="9" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="referencia">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="precovenda" rs:number="10" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="precovenda">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="estoqueinicial" rs:number="11" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="estoqueinicial">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="jafeito" rs:number="12" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="jafeito">
+				<s:datatype dt:type="string" dt:maxLength="1"/>
+			</s:AttributeType>
+			<s:AttributeType name="loja" rs:number="13" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="loja">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="etiqueta" rs:number="14" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="etiqueta">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="1" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="qtetiqueta" rs:number="15" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="qtetiqueta">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="chavelojaorigem" rs:number="16" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="chavelojaorigem">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ultimamodificacao" rs:number="17" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensgradeproduto" rs:basecolumn="ultimamodificacao">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="quantidade" rs:number="18" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="itensmovtrans" rs:basecolumn="quantidade">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="c18" rs:name="chaveunica" rs:number="19" rs:basecatalog="PRINCIPAL" rs:basetable="itensmovtrans" rs:basecolumn="chaveunica" rs:keycolumn="true" rs:hidden="true" rs:autoincrement="true">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:extends type="rs:rowbase"/>
+		</s:ElementType>
+	</s:Schema>
+	<rs:data>
+		<z:row chaveunica="47507" codigo="7070" codbarraint="7890000475075" estoqueinicial="50" jafeito="S" loja="1" chavelojaorigem="0" ultimamodificacao="2013-04-01T12:24:59" quantidade="20" c18="116492"/>
+	</rs:data>
+</xml>

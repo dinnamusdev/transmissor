@@ -1,0 +1,30 @@
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+	<s:Schema id="RowsetSchema">
+		<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+			<s:AttributeType name="id" rs:number="1" rs:basecatalog="PRINCIPAL" rs:basetable="EstoqueFilial" rs:basecolumn="id" rs:autoincrement="true">
+				<s:datatype dt:type="i8" dt:maxLength="8" rs:precision="19" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="CodigoLoja" rs:number="2" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="EstoqueFilial" rs:basecolumn="CodigoLoja">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="CodigoFilial" rs:number="3" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="EstoqueFilial" rs:basecolumn="CodigoFilial">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="CodigoProduto" rs:number="4" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="EstoqueFilial" rs:basecolumn="CodigoProduto">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="Estoque" rs:number="5" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="EstoqueFilial" rs:basecolumn="Estoque">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ultimamodificacao" rs:number="6" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="EstoqueFilial" rs:basecolumn="ultimamodificacao">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:extends type="rs:rowbase"/>
+		</s:ElementType>
+	</s:Schema>
+	<rs:data>
+		<z:row id="13361" CodigoLoja="1" CodigoFilial="1" CodigoProduto="47507" Estoque="30" ultimamodificacao="2013-04-01T12:24:59"/>
+		<z:row id="13362" CodigoLoja="10" CodigoFilial="11" CodigoProduto="47507" Estoque="20" ultimamodificacao="2013-04-01T12:24:59"/>
+		<z:row id="13363" CodigoLoja="11" CodigoFilial="12" CodigoProduto="47507" Estoque="0" ultimamodificacao="2013-04-01T12:24:09"/>
+	</rs:data>
+</xml>

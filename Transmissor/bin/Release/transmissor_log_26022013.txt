@@ -1,0 +1,5 @@
+26/02/13 18:23 - ERRO : Não foi possível localizar o arquivo 'E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\bin\Release\cnxdinnamus.cnx'.
+26/02/13 18:23 - ERRO : A propriedade ConnectionString não foi inicializada.
+26/02/13 18:23 - ERRO: Não é possível encontrar a tabela 0. -    em System.Data.DataTableCollection.get_Item(Int32 index)
+   em Transmissor.frmPrincipal.IniciarUI() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\Form1.cs:linha 161
+26/02/13 18:23 - INFO: TRANSMISSOR INICIADO COM SUCESSO

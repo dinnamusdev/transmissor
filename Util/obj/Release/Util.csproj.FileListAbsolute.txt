@@ -1,0 +1,7 @@
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\bin\Release\Util.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\bin\Release\Util.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\obj\Release\ResolveAssemblyReference.cache
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\obj\Release\Util.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\obj\Release\Util.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\bin\Release\Ionic.Zip.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\Util\bin\Release\Ionic.Zip.xml

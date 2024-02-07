@@ -1,0 +1,193 @@
+26/06/13 14:26 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 14:26 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 14:26 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 14:26 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 14:26 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 14:26 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 14:26 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 14:26 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 14:26 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 14:26 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 14:26 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 14:26 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:27 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 14:27 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:27 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:27 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 14:27 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 14:27 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 14:27 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 14:27 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 14:28 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:31 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 14:31 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 14:31 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 14:31 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 14:31 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 14:31 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 14:31 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 14:31 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 14:31 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 14:31 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 14:31 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 14:40 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:40 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 14:41 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:41 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:41 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 14:41 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 14:41 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 14:41 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 14:41 - ERRO: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index -    em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em System.Collections.Generic.List`1.RemoveAt(Int32 index)
+   em Transmissor.code.Receber.Receptor_VerificarMensagens(Int32 nLojaAtual)
+26/06/13 14:42 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 14:42 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 14:42 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 14:42 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 14:42 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 14:42 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 14:42 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 14:42 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 14:42 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 14:42 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 14:43 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 14:43 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 14:44 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:14 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 15:14 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 15:14 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 15:14 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 15:14 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 15:14 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:14 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:14 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:14 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:14 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 15:14 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:14 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:16 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:18 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 15:18 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 15:18 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 15:18 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 15:18 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 15:18 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:18 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:18 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:18 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:18 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 15:18 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:22 - ERRO: Falha ao enviar Arquivo Id :[68] - O tempo limite da operação foi atingido.
+26/06/13 15:22 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:22 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:22 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:23 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:23 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:23 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:23 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:23 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:23 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:23 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:23 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:23 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:23 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:29 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 15:29 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 15:29 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 15:29 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 15:29 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 15:29 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:29 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:29 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:29 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:29 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 15:29 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:29 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:29 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:29 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:29 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:29 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:29 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:29 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:29 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:29 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:29 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:30 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:30 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:30 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:30 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:30 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:30 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:30 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:30 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:30 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:30 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:30 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - ERRO: Sem conexão com o servidor O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:30 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:30 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:30 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:30 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:30 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:31 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 15:31 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 15:31 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 15:31 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 15:31 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 15:31 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:31 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:31 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:31 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:31 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 15:33 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 15:33 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 15:33 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 15:33 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 15:33 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 15:33 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:33 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:33 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:33 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:33 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 15:33 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:34 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:35 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 15:35 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 15:35 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 15:35 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 15:35 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 15:35 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 15:35 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 15:35 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 15:35 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 15:35 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 15:35 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 15:36 - ERRO: Falha ao enviar Arquivo Id :[68] - O servidor SMTP requer uma conexão segura ou o cliente não foi autenticado. A resposta do servidor foi: 5.7.1 Authentication required
+26/06/13 15:36 - INFO: Enviando Arquivo Id :[68] 
+26/06/13 16:09 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 16:10 - INFO: INICIANDO TRANSMISSOR....
+26/06/13 16:10 - INFO: INICIANDO O SERVIDOR (POP)
+26/06/13 16:10 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+26/06/13 16:10 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+26/06/13 16:10 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+26/06/13 16:10 - INFO: INICIANDO O SERVIDOR (SMTP)
+26/06/13 16:10 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+26/06/13 16:10 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+26/06/13 16:10 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+26/06/13 16:10 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+26/06/13 16:10 - INFO: RECEBENDO MENSAGEM TRANSFERENCIA 3057 - LOJA ORIGEM :1
+26/06/13 16:10 - INFO: --> MENSAGEM RECEBIDA COM SUCESSO
+26/06/13 16:11 - INFO: TRANSMISSOR ENCERRADO PELO OPERADOR

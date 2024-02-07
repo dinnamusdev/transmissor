@@ -1,0 +1,5 @@
+E:\DinnamuS\Transmissor_Net\Transmissor\Log\bin\Debug\Log.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\Log\bin\Debug\Log.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\Log\obj\Debug\ResolveAssemblyReference.cache
+E:\DinnamuS\Transmissor_Net\Transmissor\Log\obj\Debug\Log.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\Log\obj\Debug\Log.pdb

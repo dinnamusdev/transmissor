@@ -1,0 +1,49 @@
+11/02/13 17:13 - INFO: INICIANDO TRANSMISSOR....
+11/02/13 17:13 - INFO: INICIANDO O SERVIDOR (POP)
+11/02/13 17:13 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+11/02/13 17:13 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+11/02/13 17:13 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+11/02/13 17:13 - INFO: INICIANDO O SERVIDOR (SMTP)
+11/02/13 17:13 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+11/02/13 17:13 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+11/02/13 17:13 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+11/02/13 17:13 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+11/02/13 17:14 - INFO: Pacote fora da sequência.O ultimo pacote recebido da loja: [1]  foi a sequencia : 4. Você esta tentando receber o pacote de numero : 192. O recebimento foi CANCELADO
+11/02/13 17:17 - ERRO : Referência de objeto não definida para uma instância de um objeto.    em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo_Acao(Int32 nIdArquivo, String cNomeArquivoZip, Int16 nCodigoLojaAtual) na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\SincronizarTabelas\Recepcao\ReceberMetodosBasicos.cs:linha 291
+11/02/13 17:17 - ERRO : Referência de objeto não definida para uma instância de um objeto.    em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo_Acao(Int32 nIdArquivo, String cNomeArquivoZip, Int16 nCodigoLojaAtual) na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\SincronizarTabelas\Recepcao\ReceberMetodosBasicos.cs:linha 291
+11/02/13 17:18 - ERRO : Referência de objeto não definida para uma instância de um objeto.    em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo_Acao(Int32 nIdArquivo, String cNomeArquivoZip, Int16 nCodigoLojaAtual) na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\SincronizarTabelas\Recepcao\ReceberMetodosBasicos.cs:linha 291
+11/02/13 17:23 - INFO: INICIANDO TRANSMISSOR....
+11/02/13 17:23 - INFO: INICIANDO O SERVIDOR (POP)
+11/02/13 17:24 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+11/02/13 17:24 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+11/02/13 17:24 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+11/02/13 17:24 - INFO: INICIANDO O SERVIDOR (SMTP)
+11/02/13 17:24 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+11/02/13 17:24 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+11/02/13 17:24 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+11/02/13 17:24 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+11/02/13 17:48 - INFO: INICIANDO TRANSMISSOR....
+11/02/13 17:48 - INFO: INICIANDO O SERVIDOR (POP)
+11/02/13 17:48 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+11/02/13 17:48 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+11/02/13 17:48 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+11/02/13 17:48 - INFO: INICIANDO O SERVIDOR (SMTP)
+11/02/13 17:48 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+11/02/13 17:48 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+11/02/13 17:48 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+11/02/13 17:48 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+11/02/13 18:19 - INFO: INICIANDO TRANSMISSOR....
+11/02/13 18:19 - INFO: INICIANDO O SERVIDOR (POP)
+11/02/13 18:19 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+11/02/13 18:19 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+11/02/13 18:19 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+11/02/13 18:19 - INFO: INICIANDO O SERVIDOR (SMTP)
+11/02/13 18:19 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+11/02/13 18:19 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+11/02/13 18:19 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+11/02/13 18:19 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+11/02/13 18:21 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+11/02/13 18:24 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+11/02/13 18:24 - ERRO: Referência de objeto não definida para uma instância de um objeto. -    em Transmissor.EnvioAutomatico.VerificarMensagens()
+11/02/13 18:24 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+11/02/13 18:24 - ERRO : Referência de objeto não definida para uma instância de um objeto.    em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ProcessarArquivosRecebidos_Acao(List`1 clLista, String cNomeArquivoEnvio, Int16 nCodigoLojaAtual)

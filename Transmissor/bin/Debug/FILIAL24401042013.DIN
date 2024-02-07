@@ -1,0 +1,36 @@
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+	<s:Schema id="RowsetSchema">
+		<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+			<s:AttributeType name="CodigoFilial" rs:number="1" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="CodigoFilial" rs:keycolumn="true" rs:autoincrement="true">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="CodigoLoja" rs:number="2" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="CodigoLoja" rs:keycolumn="true">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="NomeFilial" rs:number="3" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="NomeFilial">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="CentroAdministrativo" rs:number="4" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="CentroAdministrativo">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="LojaIntegracao" rs:number="5" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="LojaIntegracao">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="CaixaIntegracao" rs:number="6" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="CaixaIntegracao">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ultimamodificacao" rs:number="7" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="ultimamodificacao">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ordem" rs:number="8" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Filial" rs:basecolumn="ordem">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:extends type="rs:rowbase"/>
+		</s:ElementType>
+	</s:Schema>
+	<rs:data>
+		<z:row CodigoFilial="1" CodigoLoja="1" NomeFilial="ESTOQUE" LojaIntegracao="1" CaixaIntegracao="7" ultimamodificacao="2013-02-26T11:57:34"/>
+		<z:row CodigoFilial="11" CodigoLoja="10" NomeFilial="LJ10" LojaIntegracao="10" CaixaIntegracao="0" ultimamodificacao="2013-02-26T11:57:34"/>
+		<z:row CodigoFilial="12" CodigoLoja="11" NomeFilial="LJ11" LojaIntegracao="11" CaixaIntegracao="0" ultimamodificacao="2013-02-26T11:57:34"/>
+	</rs:data>
+</xml>

@@ -1,0 +1,21 @@
+11/07/13 22:49 - ERRO: Não há linha na posição 0. -    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.frmPrincipal.IniciarUI() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\Form1.cs:linha 161
+11/07/13 22:49 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+11/07/13 22:50 - ERRO: Não há linha na posição 0. -    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.frmPrincipal.IniciarUI() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\Form1.cs:linha 161
+11/07/13 22:50 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+11/07/13 22:52 - INFO: INICIANDO TRANSMISSOR....
+11/07/13 22:53 - INFO: INICIANDO O SERVIDOR (POP)
+11/07/13 22:53 - INFO: INICIANDO TRANSMISSOR....
+11/07/13 22:53 - INFO: INICIANDO O SERVIDOR (POP)
+11/07/13 22:54 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+11/07/13 22:54 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+11/07/13 22:54 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+11/07/13 22:54 - INFO: INICIANDO O SERVIDOR (SMTP)
+11/07/13 22:54 - ERRO : Cadeia de entrada não estava em um formato incorreto.
+11/07/13 22:54 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+11/07/13 22:54 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+11/07/13 22:54 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+11/07/13 22:54 - INFO: TRANSMISSOR INICIADO COM SUCESSO

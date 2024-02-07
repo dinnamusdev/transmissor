@@ -1,0 +1,153 @@
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+	<s:Schema id="RowsetSchema">
+		<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+			<s:AttributeType name="idunico" rs:number="1" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="idunico" rs:autoincrement="true">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="loja" rs:number="2" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="loja">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="CODIGO" rs:number="3" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CODIGO">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="NOME" rs:number="4" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="NOME">
+				<s:datatype dt:type="string" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="ENDERECO" rs:number="5" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="ENDERECO">
+				<s:datatype dt:type="string" dt:maxLength="150"/>
+			</s:AttributeType>
+			<s:AttributeType name="BAIRRO" rs:number="6" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="BAIRRO">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CIDADE" rs:number="7" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CIDADE">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="UF" rs:number="8" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="UF">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CEP" rs:number="9" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CEP">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="FONE1" rs:number="10" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="FONE1">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="FONE2" rs:number="11" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="FONE2">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CELULAR" rs:number="12" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CELULAR">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="NASC" rs:number="13" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="NASC">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="0" rs:precision="16" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ESTADOCIVIL" rs:number="14" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="ESTADOCIVIL">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CONJUGE" rs:number="15" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CONJUGE">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="NASCONJUGE" rs:number="16" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="NASCONJUGE">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="0" rs:precision="16" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="BLOQUEIO" rs:number="17" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="BLOQUEIO">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="MOTIVO" rs:number="18" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="MOTIVO">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CPF" rs:number="19" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CPF">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="RG" rs:number="20" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="RG">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="REFER1" rs:number="21" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="REFER1">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="FONER1" rs:number="22" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="FONER1">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="REFER2" rs:number="23" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="REFER2">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="FONER2" rs:number="24" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="FONER2">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="REFER3" rs:number="25" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="REFER3">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="FONER3" rs:number="26" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="FONER3">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="TIPORESIDENCIA" rs:number="27" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="TIPORESIDENCIA">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="TEMPORESIDENCIA" rs:number="28" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="TEMPORESIDENCIA">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="PAI" rs:number="29" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="PAI">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="MAE" rs:number="30" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="MAE">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="ONDETRABALHA" rs:number="31" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="ONDETRABALHA">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CARGO" rs:number="32" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="CARGO">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="ENDERECOTRABALHO" rs:number="33" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="ENDERECOTRABALHO">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="BAIRROTRABALHO" rs:number="34" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="BAIRROTRABALHO">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="TEMPOSERVICO" rs:number="35" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="TEMPOSERVICO">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="SALARIOATUAL" rs:number="36" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="SALARIOATUAL">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="tipo" rs:number="37" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="tipo">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="dataad" rs:number="38" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="dataad">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="codigolojaorigem" rs:number="39" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="codigolojaorigem">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="email" rs:number="40" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="email">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="homepage" rs:number="41" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="homepage">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="obs" rs:number="42" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="obs">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="500"/>
+			</s:AttributeType>
+			<s:AttributeType name="fantasia" rs:number="43" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="fantasia">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="ultimamodificacao" rs:number="44" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="ultimamodificacao">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="transportadora" rs:number="45" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="transportadora">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="isentoicms" rs:number="46" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="isentoicms">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="name" rs:number="47" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="name">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="20"/>
+			</s:AttributeType>
+			<s:AttributeType name="version" rs:number="48" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="Fornecedores" rs:basecolumn="version">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:extends type="rs:rowbase"/>
+		</s:ElementType>
+	</s:Schema>
+	<rs:data>
+	</rs:data>
+</xml>

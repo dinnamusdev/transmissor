@@ -1,0 +1,12 @@
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\obj\Release\ResolveAssemblyReference.cache
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\DAO.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\DAO.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Log.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Util.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Log.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Util.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\obj\Release\DAO.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\obj\Release\DAO.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Ionic.Zip.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Ionic.Zip.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\DAO\bin\Release\Ionic.Zip.xml

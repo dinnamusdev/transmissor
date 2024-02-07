@@ -1,0 +1,147 @@
+12/02/13 01:27 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 01:27 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 01:27 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 01:27 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 01:27 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 01:27 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 01:27 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 01:27 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 01:27 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 01:27 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 01:28 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:28 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:28 - ERRO : Referência de objeto não definida para uma instância de um objeto.    em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ProcessarArquivosRecebidos_Acao(List`1 clLista, String cNomeArquivoEnvio, Int16 nCodigoLojaAtual) na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\SincronizarTabelas\Recepcao\ReceberMetodosBasicos.cs:linha 165
+12/02/13 01:29 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:29 - ERRO: Referência de objeto não definida para uma instância de um objeto. -    em Transmissor.EnvioAutomatico.VerificarMensagens() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\EnvioAutomatico.cs:linha 141
+12/02/13 01:29 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:29 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:29 - ERRO: Referência de objeto não definida para uma instância de um objeto. -    em Transmissor.EnvioAutomatico.VerificarMensagens() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\EnvioAutomatico.cs:linha 141
+12/02/13 01:29 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:31 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:43 - ERRO : O método de sincronização de objetos foi chamado de um bloco não sincronizado de código.
+12/02/13 01:56 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 01:56 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 01:56 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 01:56 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 01:56 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 01:56 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 01:56 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 01:56 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 01:56 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 01:56 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 01:57 - ERRO : Já existe um DataReader aberto associado a este Command que deve ser fechado primeiro.
+12/02/13 01:57 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 01:57 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 01:57 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 01:57 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 01:57 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 01:57 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 01:57 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 01:57 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 01:57 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 01:57 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 01:58 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:59 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 01:59 - ERRO: Referência de objeto não definida para uma instância de um objeto. -    em Transmissor.EnvioAutomatico.VerificarMensagens() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\EnvioAutomatico.cs:linha 141
+12/02/13 02:00 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 02:01 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 02:01 - ERRO: Referência de objeto não definida para uma instância de um objeto. -    em Transmissor.EnvioAutomatico.VerificarMensagens() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\EnvioAutomatico.cs:linha 141
+12/02/13 02:05 - ERRO : Update exige um InsertCommand válido para transmitir coleção DataRow com novas linhas.    em System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   em System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   em System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   em System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   em System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   em System.Data.Common.DbDataAdapter.Update(DataSet dataSet)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ProcessarArquivosRecebidos_Acao(List`1 clLista, String cNomeArquivoEnvio, Int16 nCodigoLojaAtual)
+12/02/13 02:06 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 02:06 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 02:06 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 02:06 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 02:07 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 11:22 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 11:22 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 11:22 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 11:22 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 11:22 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 11:22 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 11:22 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 11:22 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 11:22 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 11:22 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 11:25 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 11:25 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 11:25 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 11:25 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 11:25 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 11:25 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 11:25 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 11:25 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 11:25 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 11:25 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 11:26 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 11:33 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 11:33 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 11:33 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 11:33 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 11:33 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 11:33 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 11:33 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 11:33 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 11:33 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 11:33 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 11:41 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 11:41 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 11:41 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 11:41 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 11:41 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 11:41 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 11:41 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 11:41 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 11:41 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 11:41 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 11:43 - ERRO : SqlConnection não dá suporte para transações paralelas.    em System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName)
+   em System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   em System.Data.SqlClient.SqlConnection.BeginTransaction(String transactionName)
+   em SincronizadorDeTabelas.SolicitacaoEnvio.Verificar(Int16 nCodigoLoja) na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\code\SincronizarTabelas\Envio\SolicitacaoEnvio.cs:linha 100
+12/02/13 11:44 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 11:44 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 11:44 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 11:44 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 11:44 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 11:44 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 11:44 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 11:44 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 11:44 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 11:44 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 11:47 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 11:49 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 11:49 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 11:49 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 11:49 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 11:49 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 11:49 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 11:49 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 11:49 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 11:49 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 11:49 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 11:51 - ERRO : ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+12/02/13 12:07 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 12:07 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 12:07 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 12:07 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 12:07 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 12:07 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 12:07 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 12:07 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 12:07 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 12:07 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+12/02/13 12:20 - INFO: INICIANDO TRANSMISSOR....
+12/02/13 12:20 - INFO: INICIANDO O SERVIDOR (POP)
+12/02/13 12:20 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+12/02/13 12:20 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+12/02/13 12:20 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+12/02/13 12:20 - INFO: INICIANDO O SERVIDOR (SMTP)
+12/02/13 12:20 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+12/02/13 12:20 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+12/02/13 12:20 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+12/02/13 12:20 - INFO: TRANSMISSOR INICIADO COM SUCESSO

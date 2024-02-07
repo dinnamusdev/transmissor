@@ -1,0 +1,14 @@
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\SincronizadorDeTabelas.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\SincronizadorDeTabelas.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\DAO.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Log.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Util.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Ionic.Zip.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\DAO.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Log.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Util.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Ionic.Zip.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\bin\Release\Ionic.Zip.xml
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\obj\Release\ResolveAssemblyReference.cache
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\obj\Release\SincronizadorDeTabelas.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\SincronizadorDeTabelas\obj\Release\SincronizadorDeTabelas.pdb

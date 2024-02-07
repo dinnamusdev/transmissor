@@ -1,0 +1,272 @@
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+	<s:Schema id="RowsetSchema">
+		<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+			<s:AttributeType name="chaveunica" rs:number="1" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="chaveunica" rs:keycolumn="true" rs:autoincrement="true">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="loja" rs:number="2" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="loja">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="Codigo" rs:number="3" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Codigo">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true" rs:maybenull="false"/>
+			</s:AttributeType>
+			<s:AttributeType name="datacad" rs:number="4" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="datacad">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="grupo" rs:number="5" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="grupo">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="nomegrupo" rs:number="6" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="nomegrupo">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="idsubgrupo" rs:number="7" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="idsubgrupo">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="subgrupo" rs:number="8" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="subgrupo">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="nomesub" rs:number="9" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="nomesub">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="unidade" rs:number="10" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="unidade">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="codgrade" rs:number="11" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="codgrade">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="nomegrade" rs:number="12" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="nomegrade">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="minimo" rs:number="13" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="minimo">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="cor" rs:number="14" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="cor">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="francionado" rs:number="15" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="francionado">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="grade" rs:number="16" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="grade">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="bloqueado" rs:number="17" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="bloqueado">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="REF" rs:number="18" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="REF">
+				<s:datatype dt:type="string" dt:maxLength="20"/>
+			</s:AttributeType>
+			<s:AttributeType name="FORNECEDOR" rs:number="19" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="FORNECEDOR">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="CODFORN" rs:number="20" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="CODFORN">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="FOTO" rs:number="21" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="FOTO">
+				<s:datatype dt:type="bin.hex" dt:maxLength="2147483647" rs:long="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ICMS" rs:number="22" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="ICMS">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="c22" rs:name="Tributaçãoicms" rs:number="23" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Tributaçãoicms">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="Codaliquota" rs:number="24" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Codaliquota">
+				<s:datatype dt:type="string" dt:maxLength="8"/>
+			</s:AttributeType>
+			<s:AttributeType name="Percentualdeicms" rs:number="25" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Percentualdeicms">
+				<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="c25" rs:name="Classificaçãofiscal" rs:number="26" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Classificaçãofiscal">
+				<s:datatype dt:type="string" dt:maxLength="3"/>
+			</s:AttributeType>
+			<s:AttributeType name="Origemdoproduto" rs:number="27" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Origemdoproduto">
+				<s:datatype dt:type="string" dt:maxLength="37"/>
+			</s:AttributeType>
+			<s:AttributeType name="Percentualipi" rs:number="28" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Percentualipi">
+				<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="c28" rs:name="Tributaçãoipi" rs:number="29" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Tributaçãoipi">
+				<s:datatype dt:type="i2" dt:maxLength="2" rs:precision="5" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="Codigobarra" rs:number="30" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Codigobarra">
+				<s:datatype dt:type="string" dt:maxLength="8"/>
+			</s:AttributeType>
+			<s:AttributeType name="Precodecompra" rs:number="31" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Precodecompra">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="comissaoadicional" rs:number="32" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="comissaoadicional">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="margemdelucro" rs:number="33" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="margemdelucro">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="CODIGOALIQOUTA" rs:number="34" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="CODIGOALIQOUTA">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="codnatureza" rs:number="35" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="codnatureza">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="codclass" rs:number="36" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="codclass">
+				<s:datatype dt:type="string" dt:maxLength="10"/>
+			</s:AttributeType>
+			<s:AttributeType name="codigonbn" rs:number="37" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="codigonbn">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="c37" rs:name="naturezaoperação" rs:number="38" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="naturezaoperação">
+				<s:datatype dt:type="string" dt:maxLength="50"/>
+			</s:AttributeType>
+			<s:AttributeType name="ultimopreco" rs:number="39" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="ultimopreco">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="nomenov" rs:number="40" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="nomenov">
+				<s:datatype dt:type="string" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="nome" rs:number="41" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="nome">
+				<s:datatype dt:type="string" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="dataultpreco" rs:number="42" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="dataultpreco">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="feito" rs:number="43" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="feito">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="chaveligacao" rs:number="44" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="chaveligacao">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="NOMEIMPRESSO" rs:number="45" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="NOMEIMPRESSO">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+			</s:AttributeType>
+			<s:AttributeType name="maximo" rs:number="46" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="maximo">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="FABRICANTE" rs:number="47" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="FABRICANTE">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="PermitirDesconto" rs:number="48" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="PermitirDesconto">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="DescPermitido" rs:number="49" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="DescPermitido">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="DescPermitidoDe" rs:number="50" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="DescPermitidoDe">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="DescPermitidoA" rs:number="51" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="DescPermitidoA">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="Validade" rs:number="52" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Validade">
+				<s:datatype dt:type="i2" dt:maxLength="2" rs:precision="5" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="EstoqueIdeal" rs:number="53" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="EstoqueIdeal">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="NomeBalanca" rs:number="54" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="NomeBalanca">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="20"/>
+			</s:AttributeType>
+			<s:AttributeType name="LOCALIZACAO" rs:number="55" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="LOCALIZACAO">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="20"/>
+			</s:AttributeType>
+			<s:AttributeType name="Lote" rs:number="56" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Lote">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="cambio" rs:number="57" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="cambio">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="produtousaqtetiquetabalanca" rs:number="58" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="produtousaqtetiquetabalanca">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="Fiscal_Convenio" rs:number="59" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Fiscal_Convenio">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="2000"/>
+			</s:AttributeType>
+			<s:AttributeType name="Fiscal_STFaturamento" rs:number="60" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Fiscal_STFaturamento">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="3"/>
+			</s:AttributeType>
+			<s:AttributeType name="Fiscal_ReducaoBaseCalcICMS" rs:number="61" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="Fiscal_ReducaoBaseCalcICMS">
+				<s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ativado" rs:number="62" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="ativado">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="precolivre" rs:number="63" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="precolivre">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="ultimamodificacao" rs:number="64" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="ultimamodificacao">
+				<s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="tabelasubstituta" rs:number="65" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="tabelasubstituta">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="qtparatabelasubstituta" rs:number="66" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="qtparatabelasubstituta">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="linha" rs:number="67" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="linha">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="colecao" rs:number="68" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="colecao">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="modalidade_determina_bc" rs:number="69" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="modalidade_determina_bc">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="regimetributario" rs:number="70" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="regimetributario">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="aliquota_icms_st" rs:number="71" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="aliquota_icms_st">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="perc_reducao_bc_st" rs:number="72" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="perc_reducao_bc_st">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="uf_icms_st" rs:number="73" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="uf_icms_st">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="modalidade_determina_bc_st" rs:number="74" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="modalidade_determina_bc_st">
+				<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="perc_margem_valor_adic_st" rs:number="75" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="perc_margem_valor_adic_st">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="vBCSTRet" rs:number="76" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="vBCSTRet">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="vICMSSTRet" rs:number="77" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="vICMSSTRet">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="icms_sn_101_aliqaplic" rs:number="78" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="icms_sn_101_aliqaplic">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="icms_sn_101_vlrcred" rs:number="79" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="icms_sn_101_vlrcred">
+				<s:datatype dt:type="float" dt:maxLength="8" rs:precision="15" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:AttributeType name="SituacaoTributariaIPI" rs:number="80" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="SituacaoTributariaIPI">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="3"/>
+			</s:AttributeType>
+			<s:AttributeType name="clEnq" rs:number="81" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="clEnq">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="5"/>
+			</s:AttributeType>
+			<s:AttributeType name="cEnq" rs:number="82" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="cEnq">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="3"/>
+			</s:AttributeType>
+			<s:AttributeType name="CNPJProd" rs:number="83" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="CNPJProd">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="14"/>
+			</s:AttributeType>
+			<s:AttributeType name="cSelo" rs:number="84" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="cSelo">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="60"/>
+			</s:AttributeType>
+			<s:AttributeType name="qSelo" rs:number="85" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="qSelo">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="12"/>
+			</s:AttributeType>
+			<s:AttributeType name="finalidade" rs:number="86" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="finalidade">
+				<s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="500"/>
+			</s:AttributeType>
+			<s:AttributeType name="bloquearnegativo" rs:number="87" rs:nullable="true" rs:writeunknown="true" rs:basecatalog="PRINCIPAL" rs:basetable="cadproduto" rs:basecolumn="bloquearnegativo">
+				<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+			</s:AttributeType>
+			<s:extends type="rs:rowbase"/>
+		</s:ElementType>
+	</s:Schema>
+	<rs:data>
+		<z:row chaveunica="7070" loja="1" Codigo="19" datacad="2013-04-01T00:00:00" grupo="0" subgrupo="0" codgrade="" minimo="0" cor="False" francionado="False" grade="False" bloqueado="False" FOTO="" c22="1         " Codaliquota="17" Percentualdeicms="17" Precodecompra="0" comissaoadicional="0" margemdelucro="0" codigonbn="95063200" ultimopreco="0" nome="TESTE DE TRANSF VIA TRANSMISSOR.NET" feito="1" NOMEIMPRESSO="TESTE DE TRANSF VIA TRANSMISSOR.NET" maximo="0" FABRICANTE="0" EstoqueIdeal="0" Lote="False" cambio="False" Fiscal_Convenio="
+" Fiscal_STFaturamento="00" Fiscal_ReducaoBaseCalcICMS="0" ativado="True" ultimamodificacao="2013-04-01T12:24:22" linha="0" modalidade_determina_bc="1" regimetributario="1" aliquota_icms_st="0" perc_reducao_bc_st="0" uf_icms_st="0" modalidade_determina_bc_st="0" perc_margem_valor_adic_st="0" vBCSTRet="0" vICMSSTRet="0"/>
+	</rs:data>
+</xml>

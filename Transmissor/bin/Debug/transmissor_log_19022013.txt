@@ -1,0 +1,93 @@
+19/02/13 11:37 - INFO: INICIANDO TRANSMISSOR....
+19/02/13 11:37 - INFO: INICIANDO O SERVIDOR (POP)
+19/02/13 11:37 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+19/02/13 11:37 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+19/02/13 11:37 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+19/02/13 11:37 - INFO: INICIANDO O SERVIDOR (SMTP)
+19/02/13 11:37 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+19/02/13 11:37 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+19/02/13 11:37 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+19/02/13 11:37 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+19/02/13 11:38 - INFO: Pacote fora da sequência.O ultimo pacote recebido da loja: [1]  foi a sequencia : 6. Você esta tentando receber o pacote de numero : 190. O recebimento foi CANCELADO
+19/02/13 11:38 - INFO: TRANSMISSOR ENCERRADO PELO OPERADOR
+19/02/13 11:44 - INFO: INICIANDO TRANSMISSOR....
+19/02/13 11:44 - INFO: INICIANDO O SERVIDOR (POP)
+19/02/13 11:44 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+19/02/13 11:44 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+19/02/13 11:44 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+19/02/13 11:44 - INFO: INICIANDO O SERVIDOR (SMTP)
+19/02/13 11:45 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+19/02/13 11:45 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+19/02/13 11:45 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+19/02/13 11:45 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+19/02/13 11:45 - ERRO : Line 1: Incorrect syntax near 'tra'.
+19/02/13 11:46 - INFO: Pacote fora da sequência.O ultimo pacote recebido da loja: [1]  foi a sequencia : 6. Você esta tentando receber o pacote de numero : 192. O recebimento foi CANCELADO
+19/02/13 12:18 - INFO: INICIANDO TRANSMISSOR....
+19/02/13 12:18 - INFO: INICIANDO O SERVIDOR (POP)
+19/02/13 12:18 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+19/02/13 12:18 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+19/02/13 12:18 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+19/02/13 12:18 - INFO: INICIANDO O SERVIDOR (SMTP)
+19/02/13 12:18 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+19/02/13 12:18 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+19/02/13 12:18 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+19/02/13 12:18 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+19/02/13 12:18 - INFO: Pacote fora da sequência.O ultimo pacote recebido da loja: [1]  foi a sequencia : 36. Você esta tentando receber o pacote de numero : 192. O recebimento foi CANCELADO
+19/02/13 12:21 - INFO: Pacote fora da sequência.O ultimo pacote recebido da loja: [1]  foi a sequencia : 36. Você esta tentando receber o pacote de numero : 192. O recebimento foi CANCELADO
+19/02/13 12:22 - ERRO: A coluna 'idEnvio' não pertence à tabela Table. -    em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em Transmissor.frmReceber.ReceberMovimento()
+19/02/13 12:38 - INFO: INICIANDO TRANSMISSOR....
+19/02/13 12:38 - INFO: INICIANDO O SERVIDOR (POP)
+19/02/13 12:38 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+19/02/13 12:38 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+19/02/13 12:38 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+19/02/13 12:38 - INFO: INICIANDO O SERVIDOR (SMTP)
+19/02/13 12:38 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+19/02/13 12:38 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+19/02/13 12:38 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+19/02/13 12:38 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+19/02/13 12:39 - ERRO: A coluna 'idEnvio' não pertence à tabela Table. -    em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em Transmissor.frmReceber.ReceberMovimento() na E:\DinnamuS\Transmissor_Net\Transmissor\Transmissor\frmReceber.cs:linha 235
+19/02/13 12:39 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)
+19/02/13 12:39 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)
+19/02/13 12:44 - INFO: INICIANDO TRANSMISSOR....
+19/02/13 12:44 - INFO: INICIANDO O SERVIDOR (POP)
+19/02/13 12:44 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+19/02/13 12:44 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+19/02/13 12:44 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+19/02/13 12:44 - INFO: INICIANDO O SERVIDOR (SMTP)
+19/02/13 12:44 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+19/02/13 12:44 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+19/02/13 12:44 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+19/02/13 12:44 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+19/02/13 12:46 - INFO: INICIANDO TRANSMISSOR....
+19/02/13 12:46 - INFO: INICIANDO O SERVIDOR (POP)
+19/02/13 12:46 - INFO: -->SERVIDOR (POP) INICIADO COM SUCESSO
+19/02/13 12:46 - INFO: INICIANDO TAREFA DE RECEPÇAO AUTOMATICA(POP)
+19/02/13 12:46 - INFO:  -->TAREFA DE RECEPÇÃO AUTOMATICA(POP) INICIADA COM SUCESSO
+19/02/13 12:46 - INFO: INICIANDO O SERVIDOR (SMTP)
+19/02/13 12:46 - INFO: -->SERVIDOR (SMTP) INICIADO COM SUCESSO
+19/02/13 12:46 - INFO: INICIANDO TAREFA DE ENVIO AUTOMATICO(SMTP)
+19/02/13 12:46 - INFO:  -->TAREFA DE ENVIO AUTOMATICO(SMTP) INICIADA COM SUCESSO
+19/02/13 12:46 - INFO: TRANSMISSOR INICIADO COM SUCESSO
+19/02/13 12:50 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)
+19/02/13 12:50 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)
+19/02/13 12:51 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)
+19/02/13 12:51 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)
+19/02/13 12:53 - ERRO : Não há linha na posição 0.    em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em Transmissor.code.SincronizarTabelas.Recepcao.ReceberMetodosBasicos.Sincronismo_ReceberArquivo(List`1 lsMovimento, Int16 nCodigoLojaAtual)

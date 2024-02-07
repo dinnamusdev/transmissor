@@ -1,0 +1,14 @@
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\FilaEnvio.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\FilaEnvio.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\DAO.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Log.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Util.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Ionic.Zip.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\DAO.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Log.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Util.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Ionic.Zip.pdb
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\bin\Debug\Ionic.Zip.xml
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\obj\Debug\ResolveAssemblyReference.cache
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\obj\Debug\FilaEnvio.dll
+E:\DinnamuS\Transmissor_Net\Transmissor\FilaEnvio\obj\Debug\FilaEnvio.pdb
